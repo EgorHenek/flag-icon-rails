@@ -1,7 +1,7 @@
 module FlagIcon
   module Rails
     module IconHelper
-      def icon(icon, html_options = {})
+      def flag_icon(icon, html_options = {})
 
         content_class = "flag-icon flag-icon-#{icon}"
         content_class << " #{html_options[:class]}" if html_options.key?(:class)
