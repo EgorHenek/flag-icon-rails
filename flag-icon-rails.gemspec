@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'an asset gemification of the flag-icon library'
   spec.description   = 'Gem for simple use flag-icon-css'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/EgorHenek/flag-icon-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -- {app,bin,lib,test,spec}/* {LICENSE*,Rakefile,README*}`.split("\n")
