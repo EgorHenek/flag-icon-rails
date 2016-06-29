@@ -20,9 +20,24 @@ Or install it yourself as:
 
     $ gem install flag-icon-rails
 
+## Demo
+
+http://flag-icon-css.lip.is/
+
 ## Usage
 
-TODO: Write usage instructions here
+In your `application.css`, include the css file:
+
+```css
+/*
+ *= require _flag-icon
+ */
+```
+
+```ruby
+flag_icon "ru"
+# => <span class="flag-icon flag-icon-ru"></span>
+```
 
 ## Development
 
@@ -32,10 +47,13 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/flag-icon-rails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/EgorHenek/flag-icon-rails.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## TODO List
+1. Add tests
 
